@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/top_nav"
+        android:src="@drawable/top_nav"
+        android:layout_marginTop="-145dp"/>
+
+    <ImageView
+        android:id="@+id/SignOut"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:padding="5dp"
+        android:src="@drawable/baseline_logout_24"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/logoaaa"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bot_navi"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_nav"
+        android:layout_alignParentBottom="true"
+        android:background="@color/main"
+        app:itemTextColor="@drawable/bottom_navi"
+        app:itemIconTint="@drawable/bottom_navi"
+        app:itemRippleColor="@color/black">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top_nav"
+        android:layout_above="@+id/bot_navi"/>
+
+</RelativeLayout>

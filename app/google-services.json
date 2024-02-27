@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1058108836561",
+    "project_id": "service-co",
+    "storage_bucket": "service-co.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058108836561:android:b7f4a5abb97eddd9bd53f0",
+        "android_client_info": {
+          "package_name": "com.mess.service_co"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVqvbxK1RACR-eSAZ7Du0Fb2f1iTl8_M8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

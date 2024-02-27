@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".Post">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        android:id="@+id/saveButton"
+        android:background="@drawable/btnback"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/yourname"
+        android:hint="Enter Your Name"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext"
+        android:layout_below="@id/yourname"
+        android:hint="Post your requirements..."
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="150dp"
+        android:id="@+id/uploadImage"
+        android:layout_below="@id/edittext"
+        android:src="@drawable/baseline_add_photo_alternate_24"
+        android:layout_marginTop="20dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/button"/>
+
+
+
+
+</RelativeLayout>
